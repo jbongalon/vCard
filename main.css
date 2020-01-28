@@ -30,7 +30,6 @@ img {
     height: auto;
     width: auto;
     object-fit: contain;
-    overflow-y: hidden; /* Hide vertical scrollbar */
 }
 
 img.profile-pic {
@@ -38,7 +37,6 @@ img.profile-pic {
 	width: 30%;
 	object-fit: cover;
 	border-radius: 50%;
-	overflow-y: hidden; /* Hide vertical scrollbar */
 }
 
 .container {
@@ -56,6 +54,7 @@ img.profile-pic {
 	position: relative;
 	height: 100%;
 	width: 100%;
+	overflow: hidden; /* Hide scrollbars */
 }
 
 .col {
@@ -67,7 +66,7 @@ img.profile-pic {
 	padding: 0.25rem;
 	max-width: 100%;
 	max-height: 100%;
-	overflow: auto;
+	overflow: hidden; /* Hide scrollbars */
 }
 
 .col.is-1 {
