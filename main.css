@@ -30,6 +30,7 @@ img {
     height: auto;
     width: auto;
     object-fit: contain;
+    overflow: hidden; /* Hide scrollbars */
 }
 
 img.profile-pic {
@@ -37,6 +38,7 @@ img.profile-pic {
 	width: 30%;
 	object-fit: cover;
 	border-radius: 50%;
+	overflow: hidden; /* Hide scrollbars */
 }
 
 .container {
