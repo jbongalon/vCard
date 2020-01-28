@@ -189,14 +189,14 @@ img.profile-pic {
 
 @media screen and (max-width: 600px) {
   img.profile-pic {
-    height: 60%;
-    width: 60%;
+    height: 50%;
+    width: 50%;
   }
 }
 
 @media screen and (max-width: 480px) {
   img.profile-pic {
-    height: 80%;
-    width: 80%;
+    height: 70%;
+    width: 70%;
   }
 }
